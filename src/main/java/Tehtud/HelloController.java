@@ -1,4 +1,4 @@
-package com.example.oop_javafx;
+package Tehtud;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

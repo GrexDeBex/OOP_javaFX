@@ -5,4 +5,6 @@ module com.example.oop_javafx {
 
 	opens com.example.oop_javafx to javafx.fxml;
 	exports com.example.oop_javafx;
+	exports Tehtud;
+	opens Tehtud to javafx.fxml;
 }
