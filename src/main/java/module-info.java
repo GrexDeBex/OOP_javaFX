@@ -1,10 +1,4 @@
-module com.example.oop_javafx {
-	requires javafx.controls;
-	requires javafx.fxml;
-
-
-	opens com.example.oop_javafx to javafx.fxml;
-	exports com.example.oop_javafx;
-	exports Tehtud;
-	opens Tehtud to javafx.fxml;
+module oop.xox {
+    requires javafx.controls;
+    exports oop.xox;
 }
